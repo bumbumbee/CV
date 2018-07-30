@@ -1,0 +1,1 @@
+Simple and minimalistic CV built in React

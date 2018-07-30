@@ -1,0 +1,42 @@
+.Header {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #48468b;
+  color: #fff;
+  justify-content: space-around;
+  position: relative;
+  letter-spacing: 1px;
+
+  h1 {
+    text-align: left;
+    font-size: 35px;
+    margin-top: 10px;
+  }
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    font-size: 14px;
+    padding-right: 20px;
+    a{
+      margin-bottom: 5px;
+    }
+    img {
+      filter: invert(1);
+      height: 18px;
+      margin-right: 10px;
+    }
+  }
+  .profile {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: 0% 0%;
+    border-radius: 50%;
+    position: absolute;
+    top:20px;
+    right: 10px;
+  }
+
+}
