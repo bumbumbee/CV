@@ -10,7 +10,7 @@ class WorkExperience extends React.Component {
                 position: "Accounting Specialist",
                 year: "since 2017-03",
                 specification: "Handling of invoices, payments to vendors, monthly reconciliations, communication related to everyday issues/ " +
-                "Active participation in discussing and optimizing processes, also approx. 50 overtime hours spent on removing huge backlogs/ " +
+                "Active participation in discussions related to process optimization, also approx. 50 overtime hours spent on removing huge backlogs/ " +
                 "Amendment of work instructions/ "  +
                 "Training new team members"
             },

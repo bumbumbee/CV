@@ -4,7 +4,7 @@ import icon from '../img/react-brands.svg'
 class DevelopmentSkills extends React.Component {
 
     state = {
-        frontend: ['HTML', 'CSS', 'JavaScript (es6, React + Redux)'],
+        frontend: ['HTML', 'CSS/SASS', 'JavaScript (es6, React + Redux)'],
         backend: ['Node.js', 'PHP (Laravel)'],
         database: ['MongoDB', 'MySQL']
     };
@@ -32,7 +32,7 @@ class DevelopmentSkills extends React.Component {
                 <div className="dev-lang">
                     <div className="front">Front-end:
                         {frontend}
-                        <h5>This CV was built in React, the code could be checked here: https://github.com/bumbumbee/CV
+                        <h5>This CV was built in React, the code could be checked here: <a target="_blank" rel="noopener noreferrer" href="https://github.com/bumbumbee/CV">https://github.com/bumbumbee/CV</a>
                         </h5>
                     </div>
 
