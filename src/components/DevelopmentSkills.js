@@ -27,7 +27,7 @@ class DevelopmentSkills extends React.Component {
             <div className="DevelopmentSkills">
                 <div className="heading">
                     <img src={icon} alt=""/>
-                    <h3>Development Skills <span>(junior, but eager and excited to learn more)</span></h3>
+                    <h3>Development Skills <span>(junior, eager and excited to learn more)</span></h3>
                 </div>
                 <div className="dev-lang">
                     <div className="front">Front-end:
