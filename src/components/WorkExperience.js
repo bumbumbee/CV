@@ -14,7 +14,7 @@ class WorkExperience extends React.Component {
                     "Being pixel-accurate/ " +
                     "Creating reusable components with JS/ " +
                     "Currently updating meniu.lt according to new design/ " +
-                    "Fixing bugs and updating small parts of projects which are already in production (e.g. tomasgold.lt, smarttaxi.lt)"
+                    "Maintaining projects which are already in production (e.g. tomasgold.lt, smarttaxi.lt)"
             },
             {
                 company: "Norian UAB",
