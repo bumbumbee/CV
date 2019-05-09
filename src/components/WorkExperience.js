@@ -13,15 +13,14 @@ class WorkExperience extends React.Component {
                     "Writing clean and responsive code/ " +
                     "Being pixel-accurate/ " +
                     "Creating reusable components with JS/ " +
-                    "Currently updating meniu.lt according to new design/ " +
                     "Maintaining projects which are already in production (e.g. tomasgold.lt, smarttaxi.lt)"
             },
             {
                 company: "Norian UAB",
                 position: "Accounting Specialist",
                 year: "2017-03 - 2018-10",
-                specification: "Handling of invoices, payments to vendors, monthly reconciliations, communication related to everyday issues/ " +
-                "Active participation in discussions related to process optimization, also approx. 50 overtime hours spent on removing huge backlogs/ " +
+                specification: "Communication related to everyday issues/ " +
+                "Active participation in discussions related to process optimization, removing of huge backlogs/ " +
                 "Amendment of work instructions/ "  +
                 "Training new team members"
             },
