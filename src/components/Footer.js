@@ -5,7 +5,7 @@ import heart from '../img/heart-solid.svg'
 class Footer extends React.Component {
     state = {
         qualities: ['Progress-oriented', 'Quality-oriented', 'Curious', 'Open-minded', 'Precise'],
-        hobbies: ['Perfumes', 'Dystopian literature', 'Sci-fi', 'Minimalism']
+        hobbies: ['Sci-fi', 'Dystopian literature', 'Perfumes', 'Minimalism']
     };
 
     render() {

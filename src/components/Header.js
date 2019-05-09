@@ -1,5 +1,4 @@
 import React from 'react';
-import profilePic from '../img/sj.jpg'
 import phone from '../img/mobile-alt-solid.svg'
 import email from '../img/envelope-open-solid.svg'
 import git from '../img/github-brands.svg'
@@ -9,7 +8,7 @@ class Header extends React.Component {
     render() {
         return (
             <header className="Header">
-                <img className="profile" src={profilePic} alt=""/>
+                <div className="profile"></div>
                 <h1>Simona Jagelavičiūtė</h1>
                 <ul className="contacts">
                     <a href="tel:+37065159964"><img src={phone} alt=""/> +37065159964</a>

@@ -7,36 +7,52 @@
   justify-content: space-evenly;
   position: relative;
   letter-spacing: 1px;
-
+  @media (max-width: 900px) {
+    display: block;
+    .contacts{
+      margin-top: 20px;
+    }
+  }
   h1 {
     text-align: left;
     font-size: 35px;
     margin-top: 10px;
+    @media (max-width: 900px){
+      text-align: center;
+    }
   }
   .contacts {
     display: flex;
     flex-wrap: wrap;
-    width: 20%;
+    width: 300px;
     font-size: 13px;
     padding-right: 20px;
+    text-align: left;
     a{
-      margin-bottom: 3px;
+      margin-bottom: 9px;
+      display: block;
+      width: 100%;
     }
     img {
       filter: invert(1);
       height: 18px;
       margin-right: 10px;
+      vertical-align: middle;
     }
   }
   .profile {
     height: 150px;
     width: 150px;
-    object-fit: cover;
-    object-position: 0% 0%;
     border-radius: 50%;
     position: absolute;
     top:40px;
-    right: 20px;
+    right: 3vw;
+    background: url("../img/sj.jpg") no-repeat center/cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    @media (max-width: 900px){
+      top: unset;
+      bottom: -20px;
+    }
   }
 
 }

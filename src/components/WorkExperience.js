@@ -6,9 +6,20 @@ class WorkExperience extends React.Component {
     state = {
         experience: [
             {
+                company: "iMAS",
+                position: "Frontend Developer",
+                year: "2018-10 - now",
+                specification: "Working in various WEB projects with both Lithuanian and foreign clients and building full frontend (bekredito.lt savitarna, socialshaft.com, balticassist.com)/ " +
+                    "Writing clean and responsive code/ " +
+                    "Being pixel-accurate/ " +
+                    "Creating reusable components with JS/ " +
+                    "Currently updating meniu.lt according to new design/ " +
+                    "Fixing bugs and updating small parts of projects which are already in production (e.g. tomasgold.lt, smarttaxi.lt)"
+            },
+            {
                 company: "Norian UAB",
                 position: "Accounting Specialist",
-                year: "since 2017-03",
+                year: "2017-03 - 2018-10",
                 specification: "Handling of invoices, payments to vendors, monthly reconciliations, communication related to everyday issues/ " +
                 "Active participation in discussions related to process optimization, also approx. 50 overtime hours spent on removing huge backlogs/ " +
                 "Amendment of work instructions/ "  +

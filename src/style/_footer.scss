@@ -1,4 +1,4 @@
-.Footer{
+.Footer {
   padding: 15px;
   display: flex;
   flex-wrap: wrap;
@@ -8,27 +8,39 @@
   bottom: 0;
   left: 0;
   margin-top: 15px;
-  .heading{
+  .heading {
     width: 100%;
-    img{
-      height: 25px;
-      float: left;
-      filter: invert(1);
+  }
+  img {
+    height: 25px;
+    float: left;
+    filter: invert(1);
+    @media (max-width: 600px) {
+      float: none;
     }
-    h3{
-      width: 100%;
-      text-align: left;
-      font-size: 20px;
-      font-weight: 500;
-      letter-spacing: 2px;
-      margin-left: 40px;
+    }
+  h3 {
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-left: 40px;
+    @media (max-width: 600px) {
+      text-align: center;
+      margin-left: 0;
     }
   }
-  .personality, .hobbies{
+  .personality, .hobbies {
     width: 45%;
     text-align: left;
     padding-left: 10px;
-    ul{
+    @media (max-width: 600px) {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    ul {
       margin-top: 10px;
     }
   }
